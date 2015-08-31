@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		5CA848A51B8EFDD1001DDFCA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CA848A41B8EFDD1001DDFCA /* main.m */; };
-		5CA848A81B8EFDD1001DDFCA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CA848A71B8EFDD1001DDFCA /* AppDelegate.m */; };
-		5CA848AB1B8EFDD1001DDFCA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CA848AA1B8EFDD1001DDFCA /* ViewController.m */; };
 		5CA848AE1B8EFDD1001DDFCA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CA848AC1B8EFDD1001DDFCA /* Main.storyboard */; };
 		5CA848B01B8EFDD1001DDFCA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CA848AF1B8EFDD1001DDFCA /* Images.xcassets */; };
 		5CA848B31B8EFDD1001DDFCA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5CA848B11B8EFDD1001DDFCA /* LaunchScreen.xib */; };
 		5CA848BF1B8EFDD1001DDFCA /* RASignatureTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CA848BE1B8EFDD1001DDFCA /* RASignatureTests.m */; };
+		5CAF3DE71B94589A009F33DB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CAF3DE41B94589A009F33DB /* AppDelegate.m */; };
+		5CAF3DE81B94589A009F33DB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CAF3DE61B94589A009F33DB /* ViewController.m */; };
+		5CCD53651B945F0E0024D99B /* UIView+RAViewExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CCD53641B945F0E0024D99B /* UIView+RAViewExtension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,16 +31,18 @@
 		5CA8489F1B8EFDD1001DDFCA /* RASignature.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RASignature.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CA848A31B8EFDD1001DDFCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5CA848A41B8EFDD1001DDFCA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		5CA848A61B8EFDD1001DDFCA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		5CA848A71B8EFDD1001DDFCA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		5CA848A91B8EFDD1001DDFCA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		5CA848AA1B8EFDD1001DDFCA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		5CA848AD1B8EFDD1001DDFCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5CA848AF1B8EFDD1001DDFCA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		5CA848B21B8EFDD1001DDFCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		5CA848B81B8EFDD1001DDFCA /* RASignatureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RASignatureTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CA848BD1B8EFDD1001DDFCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5CA848BE1B8EFDD1001DDFCA /* RASignatureTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RASignatureTests.m; sourceTree = "<group>"; };
+		5CAF3DE31B94589A009F33DB /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5CAF3DE41B94589A009F33DB /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5CAF3DE51B94589A009F33DB /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5CAF3DE61B94589A009F33DB /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5CCD53631B945F0E0024D99B /* UIView+RAViewExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+RAViewExtension.h"; sourceTree = "<group>"; };
+		5CCD53641B945F0E0024D99B /* UIView+RAViewExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+RAViewExtension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,13 +84,8 @@
 		5CA848A11B8EFDD1001DDFCA /* RASignature */ = {
 			isa = PBXGroup;
 			children = (
-				5CA848C81B8EFDEE001DDFCA /* Example */,
+				5CAF3DE21B94589A009F33DB /* Example */,
 				5CA848C91B8EFDEE001DDFCA /* RASignature */,
-				5CA848A61B8EFDD1001DDFCA /* AppDelegate.h */,
-				5CA848A71B8EFDD1001DDFCA /* AppDelegate.m */,
-				5CA848A91B8EFDD1001DDFCA /* ViewController.h */,
-				5CA848AA1B8EFDD1001DDFCA /* ViewController.m */,
-				5CA848AC1B8EFDD1001DDFCA /* Main.storyboard */,
 				5CA848AF1B8EFDD1001DDFCA /* Images.xcassets */,
 				5CA848B11B8EFDD1001DDFCA /* LaunchScreen.xib */,
 				5CA848A21B8EFDD1001DDFCA /* Supporting Files */,
@@ -121,18 +119,25 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		5CA848C81B8EFDEE001DDFCA /* Example */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Example;
-			sourceTree = "<group>";
-		};
 		5CA848C91B8EFDEE001DDFCA /* RASignature */ = {
 			isa = PBXGroup;
 			children = (
+				5CCD53631B945F0E0024D99B /* UIView+RAViewExtension.h */,
+				5CCD53641B945F0E0024D99B /* UIView+RAViewExtension.m */,
 			);
 			path = RASignature;
+			sourceTree = "<group>";
+		};
+		5CAF3DE21B94589A009F33DB /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				5CA848AC1B8EFDD1001DDFCA /* Main.storyboard */,
+				5CAF3DE31B94589A009F33DB /* AppDelegate.h */,
+				5CAF3DE41B94589A009F33DB /* AppDelegate.m */,
+				5CAF3DE51B94589A009F33DB /* ViewController.h */,
+				5CAF3DE61B94589A009F33DB /* ViewController.m */,
+			);
+			path = Example;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,8 +240,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5CA848AB1B8EFDD1001DDFCA /* ViewController.m in Sources */,
-				5CA848A81B8EFDD1001DDFCA /* AppDelegate.m in Sources */,
+				5CAF3DE81B94589A009F33DB /* ViewController.m in Sources */,
+				5CAF3DE71B94589A009F33DB /* AppDelegate.m in Sources */,
+				5CCD53651B945F0E0024D99B /* UIView+RAViewExtension.m in Sources */,
 				5CA848A51B8EFDD1001DDFCA /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -266,6 +272,7 @@
 				5CA848AD1B8EFDD1001DDFCA /* Base */,
 			);
 			name = Main.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		5CA848B11B8EFDD1001DDFCA /* LaunchScreen.xib */ = {
@@ -432,6 +439,7 @@
 				5CA848C41B8EFDD1001DDFCA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5CA848C51B8EFDD1001DDFCA /* Build configuration list for PBXNativeTarget "RASignatureTests" */ = {
 			isa = XCConfigurationList;
@@ -440,6 +448,7 @@
 				5CA848C71B8EFDD1001DDFCA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

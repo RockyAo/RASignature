@@ -9,6 +9,8 @@
 #import "ViewController.h"
 
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet UIImageView *headerImageView;
+@property (weak, nonatomic) IBOutlet UIImageView *signImageView;
 
 @end
 
@@ -19,9 +21,17 @@
     // Do any additional setup after loading the view, typically from a nib.
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (IBAction)hasHeaderButtonClick:(UIButton *)sender {
+    
+    
+}
+- (IBAction)noHeaderButtonClick:(UIButton *)sender {
+    
+    
+}
+- (IBAction)drawboardButtonClick:(UIButton *)sender {
+    
+    
 }
 
 @end
