@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		5CA5C0941B953DA30067D93B /* RAPainBezierPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CA5C0931B953DA30067D93B /* RAPainBezierPath.m */; };
 		5CA5C0971B9544140067D93B /* RASignView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CA5C0961B9544140067D93B /* RASignView.m */; };
+		5CA5C09A1B9577440067D93B /* RAButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CA5C0991B9577440067D93B /* RAButtonView.m */; };
+		5CA5C09D1B95791E0067D93B /* RAHeaderCarmeraView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CA5C09C1B95791E0067D93B /* RAHeaderCarmeraView.m */; };
+		5CA5C0A01B9583DF0067D93B /* RASignTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CA5C09F1B9583DF0067D93B /* RASignTool.m */; };
 		5CA848A51B8EFDD1001DDFCA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CA848A41B8EFDD1001DDFCA /* main.m */; };
 		5CA848AE1B8EFDD1001DDFCA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CA848AC1B8EFDD1001DDFCA /* Main.storyboard */; };
 		5CA848B01B8EFDD1001DDFCA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CA848AF1B8EFDD1001DDFCA /* Images.xcassets */; };
@@ -34,6 +37,12 @@
 		5CA5C0931B953DA30067D93B /* RAPainBezierPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RAPainBezierPath.m; sourceTree = "<group>"; };
 		5CA5C0951B9544140067D93B /* RASignView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RASignView.h; sourceTree = "<group>"; };
 		5CA5C0961B9544140067D93B /* RASignView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RASignView.m; sourceTree = "<group>"; };
+		5CA5C0981B9577440067D93B /* RAButtonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RAButtonView.h; sourceTree = "<group>"; };
+		5CA5C0991B9577440067D93B /* RAButtonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RAButtonView.m; sourceTree = "<group>"; };
+		5CA5C09B1B95791E0067D93B /* RAHeaderCarmeraView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RAHeaderCarmeraView.h; sourceTree = "<group>"; };
+		5CA5C09C1B95791E0067D93B /* RAHeaderCarmeraView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RAHeaderCarmeraView.m; sourceTree = "<group>"; };
+		5CA5C09E1B9583DF0067D93B /* RASignTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RASignTool.h; sourceTree = "<group>"; };
+		5CA5C09F1B9583DF0067D93B /* RASignTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RASignTool.m; sourceTree = "<group>"; };
 		5CA8489F1B8EFDD1001DDFCA /* RASignature.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RASignature.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CA848A31B8EFDD1001DDFCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5CA848A41B8EFDD1001DDFCA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -136,6 +145,12 @@
 				5CA5C0931B953DA30067D93B /* RAPainBezierPath.m */,
 				5CA5C0951B9544140067D93B /* RASignView.h */,
 				5CA5C0961B9544140067D93B /* RASignView.m */,
+				5CA5C0981B9577440067D93B /* RAButtonView.h */,
+				5CA5C0991B9577440067D93B /* RAButtonView.m */,
+				5CA5C09B1B95791E0067D93B /* RAHeaderCarmeraView.h */,
+				5CA5C09C1B95791E0067D93B /* RAHeaderCarmeraView.m */,
+				5CA5C09E1B9583DF0067D93B /* RASignTool.h */,
+				5CA5C09F1B9583DF0067D93B /* RASignTool.m */,
 			);
 			path = RASignature;
 			sourceTree = "<group>";
@@ -255,10 +270,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				5CAF3DE81B94589A009F33DB /* ViewController.m in Sources */,
+				5CA5C0A01B9583DF0067D93B /* RASignTool.m in Sources */,
 				5CAF3DE71B94589A009F33DB /* AppDelegate.m in Sources */,
+				5CA5C09D1B95791E0067D93B /* RAHeaderCarmeraView.m in Sources */,
 				5CA5C0941B953DA30067D93B /* RAPainBezierPath.m in Sources */,
 				5CCD53651B945F0E0024D99B /* UIView+RASignViewExtension.m in Sources */,
 				5CA5C0971B9544140067D93B /* RASignView.m in Sources */,
+				5CA5C09A1B9577440067D93B /* RAButtonView.m in Sources */,
 				5CA848A51B8EFDD1001DDFCA /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -389,6 +407,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = RASignature/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
@@ -402,6 +421,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = RASignature/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
