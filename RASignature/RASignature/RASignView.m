@@ -55,9 +55,13 @@
 
 //确定起点
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event{
+
+    if (touches.count > 1) {
+        return;
+    }
     
     self.isSign = YES;
-    
+
     CGPoint point = [self pointWithTouches:touches];
     
     if (!self.lineWidth) {
@@ -112,7 +116,6 @@
 - (UIImage *)getSignImage{
     
     if (self.isSign) {
-        self.isSign = NO;
         UIGraphicsBeginImageContextWithOptions(self.bounds.size, NO, 0.0);
         CGContextRef ctx = UIGraphicsGetCurrentContext();
         

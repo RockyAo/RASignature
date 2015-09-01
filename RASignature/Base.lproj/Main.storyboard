@@ -61,6 +61,18 @@
                                     <action selector="drawboardButtonClick:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="e77-51-w5H"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fSu-Li-KKH">
+                                <rect key="frame" x="20" y="432" width="560" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="mRe-ov-Xz5"/>
+                                </constraints>
+                                <state key="normal" title="清屏">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="clear:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="pCa-3h-ixF"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
@@ -70,13 +82,16 @@
                             <constraint firstItem="co3-b2-dqj" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="10" id="Dot-cp-8w5"/>
                             <constraint firstAttribute="trailing" secondItem="Owz-YE-77Q" secondAttribute="trailing" constant="20" id="G4S-qQ-w8S"/>
                             <constraint firstAttribute="trailing" secondItem="nqm-hV-9Dy" secondAttribute="trailing" constant="20" id="H42-Vk-k4a"/>
+                            <constraint firstItem="fSu-Li-KKH" firstAttribute="top" secondItem="Owz-YE-77Q" secondAttribute="bottom" constant="10" id="IWi-0j-VrG"/>
                             <constraint firstItem="WFG-UB-PRv" firstAttribute="top" secondItem="co3-b2-dqj" secondAttribute="bottom" constant="20" id="JA1-RI-S0z"/>
+                            <constraint firstItem="fSu-Li-KKH" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="20" id="TrK-HJ-Xbh"/>
                             <constraint firstItem="nqm-hV-9Dy" firstAttribute="top" secondItem="WFG-UB-PRv" secondAttribute="bottom" constant="20" id="a79-aD-ZlW"/>
                             <constraint firstItem="GPj-Sr-jSK" firstAttribute="width" secondItem="co3-b2-dqj" secondAttribute="width" id="bs9-1V-sx9"/>
                             <constraint firstItem="GPj-Sr-jSK" firstAttribute="height" secondItem="co3-b2-dqj" secondAttribute="height" id="dZV-BA-moU"/>
                             <constraint firstItem="nqm-hV-9Dy" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="20" id="fMg-cf-blc"/>
                             <constraint firstAttribute="trailing" secondItem="WFG-UB-PRv" secondAttribute="trailing" constant="20" id="g1V-5K-sgK"/>
                             <constraint firstItem="Owz-YE-77Q" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="20" id="hPv-Bp-yKJ"/>
+                            <constraint firstAttribute="trailing" secondItem="fSu-Li-KKH" secondAttribute="trailing" constant="20" id="id6-gM-3u6"/>
                             <constraint firstItem="WFG-UB-PRv" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="20" id="kyO-LX-80q"/>
                             <constraint firstAttribute="trailing" secondItem="GPj-Sr-jSK" secondAttribute="trailing" constant="10" id="lqt-j5-8cX"/>
                             <constraint firstItem="GPj-Sr-jSK" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="10" id="rPX-bF-8kS"/>

@@ -24,7 +24,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-    
+    [self.view addSubview:self.signView];
 }
 
 - (IBAction)hasHeaderButtonClick:(UIButton *)sender {
@@ -37,10 +37,18 @@
 }
 - (IBAction)drawboardButtonClick:(UIButton *)sender {
     
-    
+   self.signImageView.image = [self.signView getSignImage];
 }
 
 
+- (IBAction)clear:(UIButton *)sender {
+    
+    [self.signView clearScreen];
+    
+    self.signImageView.image = nil;
+    self.headerImageView.image = nil;
+    
+}
 
 #pragma mark getter and setter
 
@@ -49,7 +57,7 @@
     if (!_signView) {
         _signView = [[RASignView alloc] initWithFrame:CGRectMake(0, RAMainSCreenHeight - 200, RAMainScreenWidth, 200)];
         _signView.lineColor = [UIColor redColor];
-        _signView.lineWidth = 2.0f;
+        _signView.lineWidth = 3.0f;
     }
     return _signView;
 }

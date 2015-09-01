@@ -129,9 +129,9 @@
 		5CA848C91B8EFDEE001DDFCA /* RASignature */ = {
 			isa = PBXGroup;
 			children = (
+				5CCD53661B94605F0024D99B /* RASignature.h */,
 				5CCD53631B945F0E0024D99B /* UIView+RASignViewExtension.h */,
 				5CCD53641B945F0E0024D99B /* UIView+RASignViewExtension.m */,
-				5CCD53661B94605F0024D99B /* RASignature.h */,
 				5CA5C0921B953DA30067D93B /* RAPainBezierPath.h */,
 				5CA5C0931B953DA30067D93B /* RAPainBezierPath.m */,
 				5CA5C0951B9544140067D93B /* RASignView.h */,
@@ -202,6 +202,7 @@
 				TargetAttributes = {
 					5CA8489E1B8EFDD1001DDFCA = {
 						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = TN3XPTCQTG;
 					};
 					5CA848B71B8EFDD1001DDFCA = {
 						CreatedOnToolsVersion = 6.3.2;
@@ -385,9 +386,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = RASignature/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -395,9 +399,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = RASignature/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};

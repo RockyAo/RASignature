@@ -18,14 +18,14 @@
  */
 @property (nonatomic, strong) UIColor *lineColor;
 /**
- *  清屏  clear everything
+ *  清屏  clear everything in drawboard
  */
 - (void)clearScreen;
 /**
  *  获取签名图片
  *
  *  @return 如果已经在画板上签名返回图片 否则返回nil
- *          if signed return the sign image else return nil
+ *          if you had signed return the sign image else return nil
  */
 - (UIImage *)getSignImage;
 @end
