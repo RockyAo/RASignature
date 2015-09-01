@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5CA5C0941B953DA30067D93B /* RAPainBezierPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CA5C0931B953DA30067D93B /* RAPainBezierPath.m */; };
+		5CA5C0971B9544140067D93B /* RASignView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CA5C0961B9544140067D93B /* RASignView.m */; };
 		5CA848A51B8EFDD1001DDFCA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CA848A41B8EFDD1001DDFCA /* main.m */; };
 		5CA848AE1B8EFDD1001DDFCA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CA848AC1B8EFDD1001DDFCA /* Main.storyboard */; };
 		5CA848B01B8EFDD1001DDFCA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CA848AF1B8EFDD1001DDFCA /* Images.xcassets */; };
@@ -14,7 +16,7 @@
 		5CA848BF1B8EFDD1001DDFCA /* RASignatureTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CA848BE1B8EFDD1001DDFCA /* RASignatureTests.m */; };
 		5CAF3DE71B94589A009F33DB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CAF3DE41B94589A009F33DB /* AppDelegate.m */; };
 		5CAF3DE81B94589A009F33DB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CAF3DE61B94589A009F33DB /* ViewController.m */; };
-		5CCD53651B945F0E0024D99B /* UIView+RAViewExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CCD53641B945F0E0024D99B /* UIView+RAViewExtension.m */; };
+		5CCD53651B945F0E0024D99B /* UIView+RASignViewExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CCD53641B945F0E0024D99B /* UIView+RASignViewExtension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +30,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5CA5C0921B953DA30067D93B /* RAPainBezierPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RAPainBezierPath.h; sourceTree = "<group>"; };
+		5CA5C0931B953DA30067D93B /* RAPainBezierPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RAPainBezierPath.m; sourceTree = "<group>"; };
+		5CA5C0951B9544140067D93B /* RASignView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RASignView.h; sourceTree = "<group>"; };
+		5CA5C0961B9544140067D93B /* RASignView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RASignView.m; sourceTree = "<group>"; };
 		5CA8489F1B8EFDD1001DDFCA /* RASignature.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RASignature.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CA848A31B8EFDD1001DDFCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5CA848A41B8EFDD1001DDFCA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -41,8 +47,9 @@
 		5CAF3DE41B94589A009F33DB /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		5CAF3DE51B94589A009F33DB /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		5CAF3DE61B94589A009F33DB /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		5CCD53631B945F0E0024D99B /* UIView+RAViewExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+RAViewExtension.h"; sourceTree = "<group>"; };
-		5CCD53641B945F0E0024D99B /* UIView+RAViewExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+RAViewExtension.m"; sourceTree = "<group>"; };
+		5CCD53631B945F0E0024D99B /* UIView+RASignViewExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+RASignViewExtension.h"; sourceTree = "<group>"; };
+		5CCD53641B945F0E0024D99B /* UIView+RASignViewExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+RASignViewExtension.m"; sourceTree = "<group>"; };
+		5CCD53661B94605F0024D99B /* RASignature.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RASignature.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,8 +129,13 @@
 		5CA848C91B8EFDEE001DDFCA /* RASignature */ = {
 			isa = PBXGroup;
 			children = (
-				5CCD53631B945F0E0024D99B /* UIView+RAViewExtension.h */,
-				5CCD53641B945F0E0024D99B /* UIView+RAViewExtension.m */,
+				5CCD53631B945F0E0024D99B /* UIView+RASignViewExtension.h */,
+				5CCD53641B945F0E0024D99B /* UIView+RASignViewExtension.m */,
+				5CCD53661B94605F0024D99B /* RASignature.h */,
+				5CA5C0921B953DA30067D93B /* RAPainBezierPath.h */,
+				5CA5C0931B953DA30067D93B /* RAPainBezierPath.m */,
+				5CA5C0951B9544140067D93B /* RASignView.h */,
+				5CA5C0961B9544140067D93B /* RASignView.m */,
 			);
 			path = RASignature;
 			sourceTree = "<group>";
@@ -184,6 +196,7 @@
 		5CA848971B8EFDD1001DDFCA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = RA;
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = Rocky;
 				TargetAttributes = {
@@ -242,7 +255,9 @@
 			files = (
 				5CAF3DE81B94589A009F33DB /* ViewController.m in Sources */,
 				5CAF3DE71B94589A009F33DB /* AppDelegate.m in Sources */,
-				5CCD53651B945F0E0024D99B /* UIView+RAViewExtension.m in Sources */,
+				5CA5C0941B953DA30067D93B /* RAPainBezierPath.m in Sources */,
+				5CCD53651B945F0E0024D99B /* UIView+RASignViewExtension.m in Sources */,
+				5CA5C0971B9544140067D93B /* RASignView.m in Sources */,
 				5CA848A51B8EFDD1001DDFCA /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

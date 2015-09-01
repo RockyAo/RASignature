@@ -6,9 +6,9 @@
 //  Copyright (c) 2015年 Rocky. All rights reserved.
 //
 
-#import "UIView+RAViewExtension.h"
+#import "UIView+RASignViewExtension.h"
 
-@implementation UIView (RAViewExtension)
+@implementation UIView (RASignViewExtension)
 - (void)setX:(CGFloat)x
 {
     CGRect frame = self.frame;

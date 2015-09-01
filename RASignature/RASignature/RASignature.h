@@ -6,8 +6,5 @@
 //  Copyright (c) 2015年 Rocky. All rights reserved.
 //
 
-#ifndef RASignature_RASignature_h
-#define RASignature_RASignature_h
+#import "RASignView.h"
 
-
-#endif
